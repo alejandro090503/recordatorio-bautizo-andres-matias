@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#FAF7EC">
+<meta name="theme-color" content="#F6F3EA">
 <title>Recordatorio · Bautizo de Andrés Matías</title>
 <meta name="description" content="Recordatorio · Bautizo de Andrés Matías González Estrada · Sábado 6 de febrero de 2027 · Morelia, Michoacán.">
 <meta property="og:type" content="website">
@@ -21,12 +21,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Italiana&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Great+Vibes&family=Jost:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{
-  --paper:#FAF7EC;
+  --paper:#F6F3EA;
   --cream:#FFFFFF;
   --champagne:#F0ECDA;
-  --copper:#B3A46E;
-  --gold:#8C9A72;
-  --gold-dk:#5E7350;
+  --copper:#C9A96A;
+  --gold:#8FA77F;
+  --gold-dk:#5F6F56;
   --ink:#3A412A;
   --ink-soft:#4F5740;
   --border:rgba(124,114,71,.26);
@@ -50,7 +50,7 @@ img{display:block;max-width:100%}
 
 /* ══════ ACABADO METÁLICO ══════ */
 .metal{
-  background:linear-gradient(100deg,#4A4528 0%,#6E6640 26%,#9A8C55 50%,#6E6640 74%,#4A4528 100%);
+  background:linear-gradient(100deg,#4E3D20 0%,#6E5530 28%,#A8884E 50%,#6E5530 72%,#4E3D20 100%);
   background-size:220% 100%;
   -webkit-background-clip:text;background-clip:text;
   color:transparent;-webkit-text-fill-color:transparent;
@@ -63,7 +63,7 @@ img{display:block;max-width:100%}
 /* ══════ PUERTA ══════ */
 #gate{
   position:fixed;inset:0;z-index:90;
-  background:linear-gradient(170deg,#FAF7EC 0%,#FFFFFF 58%,#F3EEDC 100%);
+  background:linear-gradient(170deg,#F6F3EA 0%,#FFFFFF 58%,#F3EEDC 100%);
   display:flex;align-items:center;justify-content:center;
   cursor:pointer;transition:opacity 1s ease,visibility 1s;padding:28px;
 }
@@ -72,7 +72,7 @@ img{display:block;max-width:100%}
   position:absolute;inset:0;
   background:url('ink/ink-hero.webp') center/cover no-repeat;opacity:.5;
 }
-.gate-veil{position:absolute;inset:0;background:radial-gradient(64% 46% at 50% 50%,rgba(255,255,250,.94),rgba(250,247,236,.55) 70%,rgba(250,247,236,.2))}
+.gate-veil{position:absolute;inset:0;background:radial-gradient(64% 46% at 50% 50%,rgba(255,255,250,.94),rgba(246,243,234,.55) 70%,rgba(246,243,234,.2))}
 .gate-card{
   position:relative;text-align:center;padding:46px 34px 40px;
   border:1px solid var(--border);
@@ -103,7 +103,7 @@ img{display:block;max-width:100%}
 #petals{position:fixed;inset:0;pointer-events:none;z-index:6;overflow:hidden}
 .petal{
   position:absolute;border-radius:60% 40% 55% 45%;
-  background:linear-gradient(140deg,rgba(240,236,218,.95),rgba(179,164,110,.42));
+  background:linear-gradient(140deg,rgba(240,236,218,.95),rgba(201,169,106,.42));
   opacity:0;animation:fall linear infinite;
 }
 @keyframes fall{
@@ -136,15 +136,15 @@ img{display:block;max-width:100%}
 .veil{
   position:absolute;inset:0;pointer-events:none;
   background:radial-gradient(78% 52% at 50% 50%,
-    rgba(255,255,252,.86) 0%, rgba(250,247,236,.52) 58%, rgba(250,247,236,.18) 100%);
+    rgba(255,255,252,.86) 0%, rgba(246,243,234,.52) 58%, rgba(246,243,234,.18) 100%);
 }
 /* costura: el papel sube y baja sobre la textura vecina */
 .sec::before,.sec::after{
   content:'';position:absolute;left:0;right:0;height:var(--fade);
   pointer-events:none;z-index:2;
 }
-.sec::before{top:0;background:linear-gradient(to bottom,var(--paper) 0%,rgba(250,247,236,.55) 55%,rgba(250,247,236,0) 100%)}
-.sec::after{bottom:0;background:linear-gradient(to top,var(--paper) 0%,rgba(250,247,236,.55) 55%,rgba(250,247,236,0) 100%)}
+.sec::before{top:0;background:linear-gradient(to bottom,var(--paper) 0%,rgba(246,243,234,.55) 55%,rgba(246,243,234,0) 100%)}
+.sec::after{bottom:0;background:linear-gradient(to top,var(--paper) 0%,rgba(246,243,234,.55) 55%,rgba(246,243,234,0) 100%)}
 .wrap{position:relative;z-index:3;max-width:520px;margin:0 auto;text-align:center}
 
 /* ══════ HERO ══════ */
@@ -221,7 +221,7 @@ h2.ttl{font-family:var(--display);font-size:33px;line-height:1.24;letter-spacing
 .pf{
   position:absolute;inset:0;border-radius:50%;overflow:hidden;
   border:3px solid transparent;
-  background:linear-gradient(140deg,#F3EEDC,#B3A46E 45%,#FCFAF2 60%,#6E6640) border-box;
+  background:linear-gradient(140deg,#F3EEDC,#C9A96A 45%,#FCFAF2 60%,#6E6640) border-box;
   box-shadow:0 16px 40px rgba(58,65,42,.26);
 }
 .pf img{
@@ -288,7 +288,7 @@ footer .tex{
 }
 footer::before{
   content:'';position:absolute;top:0;left:0;right:0;height:var(--fade);z-index:2;pointer-events:none;
-  background:linear-gradient(to bottom,var(--paper) 0%,rgba(250,247,236,.55) 55%,rgba(250,247,236,0) 100%);
+  background:linear-gradient(to bottom,var(--paper) 0%,rgba(246,243,234,.55) 55%,rgba(246,243,234,0) 100%);
 }
 .f-mono{font-family:var(--display);font-size:52px;line-height:1;letter-spacing:.06em;display:block}
 .f-date{font-family:var(--serif);font-weight:600;font-size:19px;letter-spacing:.14em;margin-top:14px}
@@ -324,19 +324,19 @@ footer::before{
 .vinyl-label{
   position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
   width:25px;height:25px;border-radius:50%;
-  background:linear-gradient(140deg,#F3EEDC 0%,#C9BC88 38%,#8C9A72 62%,#6E6640 100%);
+  background:linear-gradient(140deg,#F3EEDC 0%,#C9BC88 38%,#8FA77F 62%,#6E6640 100%);
   box-shadow:0 0 0 1px rgba(255,255,255,.35) inset, 0 1px 4px rgba(0,0,0,.5);
   display:flex;align-items:center;justify-content:center;
   font-family:var(--display);font-size:11px;color:#3A412A;letter-spacing:.02em;
 }
 .vinyl-hole{
   position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-  width:5px;height:5px;border-radius:50%;background:#FAF7EC;
+  width:5px;height:5px;border-radius:50%;background:#F6F3EA;
   box-shadow:0 0 0 1px rgba(0,0,0,.45);z-index:2;
 }
 .vinyl-ring{
   position:absolute;inset:-4px;border-radius:50%;
-  border:1px solid rgba(179,164,110,.55);
+  border:1px solid rgba(201,169,106,.55);
   opacity:0;transition:opacity .4s ease;
 }
 .vinyl-btn.playing .vinyl-ring{opacity:1;animation:ripple 2.6s ease-out infinite}
@@ -347,8 +347,8 @@ footer::before{
   transition:transform .55s cubic-bezier(.3,.8,.3,1);
 }
 .vinyl-btn.playing .vinyl-arm{transform:rotate(6deg)}
-.arm-pivot{position:absolute;top:0;right:0;width:9px;height:9px;border-radius:50%;background:linear-gradient(140deg,#F3EEDC,#8C9A72)}
-.arm-line{position:absolute;top:5px;right:6px;width:22px;height:2px;border-radius:2px;background:linear-gradient(to left,#D9CFA6,#7C7247);transform:rotate(38deg);transform-origin:right center}
+.arm-pivot{position:absolute;top:0;right:0;width:9px;height:9px;border-radius:50%;background:linear-gradient(140deg,#F3EEDC,#8FA77F)}
+.arm-line{position:absolute;top:5px;right:6px;width:22px;height:2px;border-radius:2px;background:linear-gradient(to left,#E4D3A9,#9A7B45);transform:rotate(38deg);transform-origin:right center}
 .arm-head{position:absolute;top:18px;right:19px;width:7px;height:4px;border-radius:1px;background:#6E6640}
 
 /* ══════ REVEAL ══════ */
@@ -404,9 +404,9 @@ footer::before{
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;margin-top:16px;padding:12px 22px 12px calc(22px + .18em);
   font-family:var(--sans);font-weight:500;font-size:13px;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;
   color:var(--gold-dk);border:1px solid var(--copper);background:rgba(255,255,255,.6);transition:background .3s,color .3s}
-.btn:hover,.btn:active{background:#5E7350;color:#fff}
+.btn:hover,.btn:active{background:#5F6F56;color:#fff}
 .btn svg{width:15px;height:15px}
-.btn-solid{background:#5E7350;color:#fff;border-color:#5E7350;animation:breathe 3.4s ease-in-out infinite}
+.btn-solid{background:#5F6F56;color:#fff;border-color:#5F6F56;animation:breathe 3.4s ease-in-out infinite}
 @keyframes breathe{0%,100%{scale:1}50%{scale:1.03}}
 @media (prefers-reduced-motion:reduce){.btn-solid{animation:none}}
 </style>
@@ -552,13 +552,14 @@ footer::before{
         <h2 class="ttl">Te espero</h2>
         <div class="orn"><span class="orn-line"></span><span class="orn-s"></span><span class="orn-d"></span><span class="orn-s"></span><span class="orn-line"></span></div>
         <div class="place">
-          <span class="place-tag">Ceremonia religiosa</span>
-          <p class="place-pend">Por confirmar</p>
+          <span class="place-tag">Misa y ceremonia de bautismo</span>
+          <p class="place-name">Capilla del Jardín de Eventos Santa Sofía</p>
+          <p class="place-time">1:00 PM · Morelia, Michoacán</p>
         </div>
         <div class="place">
           <span class="place-tag">Recepción</span>
           <p class="place-name">Jardín de Eventos Santa Sofía</p>
-          <p class="place-time">2:00 PM · Morelia, Michoacán</p>
+          <p class="place-time">Recepción 2:00 PM · Comida 3:00 PM</p>
           <a class="btn" href="https://www.google.com/maps/place/Jard%C3%ADn+de+Eventos+Santa+Sof%C3%ADa/@19.6397813,-101.1475949,17z/data=!3m1!4b1!4m6!3m5!1s0x842d128fad2c6911:0xcb3642b9b075afae!8m2!3d19.6397813!4d-101.1475949!16s%2Fg%2F11ddzcpjmn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Ver en Google Maps</a>
         </div>
         <div class="place">
@@ -584,7 +585,7 @@ footer::before{
 
 </div>
 
-<audio id="music" loop preload="none" playsinline><source src="https://bsjoelxktbvlavfoozhk.supabase.co/storage/v1/object/public/fotos-clientes/audio/boda-rosa-y-jorge/cancion.mp3" type="audio/mpeg"></audio>
+<audio id="music" loop preload="none" playsinline><source src="cancion.mp3" type="audio/mpeg"></audio>
 <button class="vinyl-btn" id="musicBtn" type="button" aria-label="Reproducir música">
   <span class="vinyl-ring" aria-hidden="true"></span>
   <span class="vinyl-plate" aria-hidden="true"></span>
@@ -599,7 +600,7 @@ footer::before{
 <script>
 (function(){
   'use strict';
-  var TARGET = new Date('2027-02-06T14:00:00-06:00').getTime();
+  var TARGET = new Date('2027-02-06T13:00:00-06:00').getTime();
   var started = false;
 
   function petals(){
@@ -700,7 +701,7 @@ footer::before{
    - Si el archivo de la cancion falla (404, host caido, HTML en vez de mp3) se usa una de respaldo. */
 (function(){
   if(window.__elyAudio2) return; window.__elyAudio2=1;
-  var FALLBACK='https://boda-isaac-y-claudia.vercel.app/cancion.mp3';
+  var FALLBACK='/cancion.mp3';
   var forced=false, gestured=false;
   function A(){ return document.querySelector('audio'); }
   function toFallback(a){
